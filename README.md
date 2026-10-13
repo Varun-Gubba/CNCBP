@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Network Monitoring and Intelligent Routing System
 
 A full-stack, college-level network simulation and monitoring system demonstrating **Dijkstra's Shortest-Path Algorithm**, virtual IoT telemetry generation, fault injection, and live dashboard analytics.
@@ -108,3 +109,6 @@ npm run dev
 - Pending alerts are stored in a persistent local queue with unique event IDs (`EVT-*`).
 - When connectivity is restored, the `POST /edge/nodes/{id}/sync` endpoint automatically dispatches queued alerts across the NetworkX Dijkstra router to Central Server `SRV`, recording delivery status, hop count, and simulated latency.
 
+=======
+# CNCBP
+>>>>>>> e7e3b1e9205a444c839a87de483149b2796d63a7
